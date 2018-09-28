@@ -12,5 +12,7 @@ function moveDodgerRight() {
 }
 
 document.addEventListener('keydown', function(e) {
-  if (e.which === )
-})
+  if (e.which === 39) {
+    moveDodgerRight();
+  }
+});
